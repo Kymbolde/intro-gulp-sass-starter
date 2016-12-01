@@ -1,3 +1,13 @@
+$size: 22px;
+$primaryColor: blue;
+$primaryColorLight: lighten($primaryColor, 20%);
+
+
 .name {
-    font-size: 22px;
+    font-size: $size;
+    color: $primaryColorLight;
+}
+
+.genus {
+	color: $primaryColorLight;
 }
